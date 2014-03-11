@@ -7,6 +7,5 @@
     <version>1.0</version>
   </parent>
   <artifactId>custom-ext-config</artifactId>
-    <version>1.0</version>
-
+  <version>1.0</version>
 </project>
