@@ -15,14 +15,13 @@
       <groupId>org.exoplatform</groupId>
       <artifactId>custom-ext-component</artifactId>
         <version>1.0</version>
-
+        <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.exoplatform</groupId>
       <artifactId>custom-ext-config</artifactId>
         <version>1.0</version>
-
-        <scope>runtime</scope>
+        <scope>provided</scope>
     </dependency>
   </dependencies>
   <build>
