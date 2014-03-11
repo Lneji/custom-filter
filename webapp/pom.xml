@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>custom-ext</artifactId>
+    <groupId>org.exoplatform</groupId>
+    <version>1.0</version>
+  </parent>
+  <artifactId>custom-ext-webapp</artifactId>
+    <version>1.0</version>
+  <packaging>war</packaging>
+  <name>custom-ext sample</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.exoplatform</groupId>
+      <artifactId>custom-ext-component</artifactId>
+        <version>1.0</version>
+
+    </dependency>
+    <dependency>
+      <groupId>org.exoplatform</groupId>
+      <artifactId>custom-ext-config</artifactId>
+        <version>1.0</version>
+
+        <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>custom-ext</finalName>
+  </build>
+</project>
