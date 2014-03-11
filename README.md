@@ -1,4 +1,3 @@
-
 custom-filter
 =============
 
@@ -7,5 +6,7 @@ the corrupted pages to a 404 not found error page. In fact, the default behavior
 when the url contains a non existing page, this is the expected behavior that the root node is displayed if the
 requested URL point to an unfounded node. This project will override the default behavior.
 
+Note
 =============
-This project is made by Lassaâd Neji : eXo Support Engineer. 
+
+This implementation must be improved to avoid the performance problems that can be generated after applying it. 
